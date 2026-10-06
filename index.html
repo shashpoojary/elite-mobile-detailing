@@ -1,24 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elite Mobile Detailing</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Elite Mobile Detailing | Premium Car Detailing</title>
+
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0b0f14;
+    color: white;
+    line-height: 1.6;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    background: #080b0f;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #00c2ff;
+}
+
+.hero {
+    padding: 80px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #111923, #071018);
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.hero h1 span {
+    color: #00c2ff;
+}
+
+.hero p {
+    max-width: 600px;
+    margin: auto;
+    color: #c5cbd3;
+    font-size: 18px;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px 28px;
+    background: #00c2ff;
+    color: #001018;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+section {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #151c24;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    border: 1px solid #27313c;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    color: #00c2ff;
+}
+
+.card p {
+    color: #b8c0c9;
+}
+
+.about {
+    text-align: center;
+    color: #c5cbd3;
+}
+
+.cta {
+    text-align: center;
+    background: #111923;
+    border-radius: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #89929d;
+    background: #080b0f;
+}
+</style>
 </head>
+
 <body>
 
-    <h1>Elite Mobile Detailing</h1>
-    <p>Professional car detailing brought directly to your driveway.</p>
+<header>
+    <div class="logo">ELITE <span>MOBILE DETAILING</span></div>
+</header>
 
+<div class="hero">
+    <h1>Premium Car Care, <span>At Your Door.</span></h1>
+    <p>
+        Professional mobile car detailing brought directly to your home,
+        office, or driveway.
+    </p>
+
+    <a href="#booking" class="button">BOOK YOUR DETAIL</a>
+</div>
+
+<section>
     <h2>Our Services</h2>
-    <ul>
-        <li>Full Interior Detail</li>
-        <li>Exterior Wash & Wax</li>
-        <li>Complete Interior & Exterior Detail</li>
-    </ul>
 
-    <h2>Book Your Detail</h2>
-    <p>Call us today to schedule your appointment.</p>
+    <div class="services">
+
+        <div class="card">
+            <h3>Interior Detail</h3>
+            <p>
+                Deep cleaning for carpets, seats, dashboard and interior surfaces.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Exterior Detail</h3>
+            <p>
+                Hand wash, wheels, tires and a clean finish that makes your car shine.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Full Detail</h3>
+            <p>
+                Complete interior and exterior detailing for the ultimate refresh.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2>Why Choose Elite?</h2>
+
+    <div class="about">
+        <p>
+            We bring professional detailing directly to you.
+            No waiting rooms. No driving across town.
+            Just convenient, high-quality car care wherever you are.
+        </p>
+    </div>
+</section>
+
+<section id="booking" class="cta">
+    <h2>Ready to Make Your Car Shine?</h2>
+
+    <p>
+        Contact Elite Mobile Detailing today and schedule your appointment.
+    </p>
+
+    <a href="tel:+15551234567" class="button">CALL NOW</a>
+</section>
+
+<footer>
+    © 2026 Elite Mobile Detailing. All rights reserved.
+</footer>
 
 </body>
 </html>
