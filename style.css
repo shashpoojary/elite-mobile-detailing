@@ -60,3 +60,8 @@ a {
 .why-us .card {
   margin-bottom: 20px;
 }
+.why-us .card {
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
