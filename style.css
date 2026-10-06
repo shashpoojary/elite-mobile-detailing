@@ -46,3 +46,17 @@ a {
     padding: 14px;
   }
 }
+.why-us {
+  width: 90%;
+  max-width: 1100px;
+  margin: 60px auto;
+  text-align: center;
+}
+
+.why-us h2 {
+  margin-bottom: 30px;
+}
+
+.why-us .card {
+  margin-bottom: 20px;
+}
